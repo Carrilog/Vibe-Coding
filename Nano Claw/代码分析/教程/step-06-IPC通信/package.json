@@ -1,0 +1,12 @@
+{
+  "name": "nanoclaw-step-06",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "better-sqlite3": "11.10.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "@types/better-sqlite3": "^7.6.12"
+  }
+}

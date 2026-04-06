@@ -1,0 +1,154 @@
+{
+  "version": 3,
+  "activeProfileId": null,
+  "providers": [
+    {
+      "id": "claude",
+      "displayName": "Claude (OAuth)",
+      "kind": "builtin",
+      "authType": "oauth",
+      "builtin": true,
+      "client": "anthropic",
+      "protocol": "anthropic",
+      "models": [
+        "claude-opus-4-6",
+        "claude-sonnet-4-6",
+        "claude-opus-4-5-20251101",
+        "claude-sonnet-4-5-20250929"
+      ],
+      "createdAt": "2026-04-01T13:19:43.198Z",
+      "updatedAt": "2026-04-01T13:19:43.198Z"
+    },
+    {
+      "id": "codex",
+      "displayName": "Codex (OAuth)",
+      "kind": "builtin",
+      "authType": "oauth",
+      "builtin": true,
+      "client": "openai",
+      "protocol": "openai",
+      "models": [
+        "gpt-5.3-codex",
+        "gpt-5.4",
+        "gpt-5.3-codex-spark",
+        "codex"
+      ],
+      "createdAt": "2026-04-01T13:19:43.198Z",
+      "updatedAt": "2026-04-01T13:19:43.198Z"
+    },
+    {
+      "id": "gemini",
+      "displayName": "Gemini (OAuth)",
+      "kind": "builtin",
+      "authType": "oauth",
+      "builtin": true,
+      "client": "google",
+      "protocol": "google",
+      "models": [
+        "gemini-3.1-pro-preview",
+        "gemini-2.5-pro"
+      ],
+      "createdAt": "2026-04-01T13:19:43.198Z",
+      "updatedAt": "2026-04-01T13:19:43.198Z"
+    },
+    {
+      "id": "dare",
+      "displayName": "Dare (client-auth)",
+      "kind": "builtin",
+      "authType": "oauth",
+      "builtin": true,
+      "client": "dare",
+      "protocol": "openai",
+      "models": [
+        "z-ai/glm-4.7"
+      ],
+      "createdAt": "2026-04-01T13:19:43.198Z",
+      "updatedAt": "2026-04-01T13:19:43.198Z"
+    },
+    {
+      "id": "opencode",
+      "displayName": "OpenCode (client-auth)",
+      "kind": "builtin",
+      "authType": "oauth",
+      "builtin": true,
+      "client": "opencode",
+      "protocol": "anthropic",
+      "models": [
+        "anthropic/claude-opus-4-6",
+        "anthropic/claude-sonnet-4-5"
+      ],
+      "createdAt": "2026-04-01T13:19:43.198Z",
+      "updatedAt": "2026-04-01T13:19:43.198Z"
+    },
+    {
+      "id": "opencode-glm",
+      "displayName": "opencode(glm)",
+      "kind": "api_key",
+      "authType": "api_key",
+      "builtin": false,
+      "protocol": "anthropic",
+      "baseUrl": "https://open.bigmodel.cn/api/anthropic",
+      "models": [
+        "zhipuai-coding-plan/glm-5.1"
+      ],
+      "createdAt": "2026-04-01T13:20:49.830Z",
+      "updatedAt": "2026-04-05T08:28:05.980Z"
+    },
+    {
+      "id": "my-claude",
+      "displayName": "my-claude",
+      "kind": "api_key",
+      "authType": "api_key",
+      "builtin": false,
+      "protocol": "anthropic",
+      "baseUrl": "http://1.95.142.151:3000",
+      "models": [
+        "claude-sonnet-4-6",
+        "claude-opus-4-6",
+        "claude-opus-4-6-thinking"
+      ],
+      "createdAt": "2026-04-01T13:21:18.624Z",
+      "updatedAt": "2026-04-05T08:28:10.243Z"
+    },
+    {
+      "id": "ruifeng-claude",
+      "displayName": "ruifeng-claude",
+      "kind": "api_key",
+      "authType": "api_key",
+      "builtin": false,
+      "protocol": "anthropic",
+      "baseUrl": "https://code.viwo50when4.xyz",
+      "models": [
+        "claude-sonnet-4-6",
+        "claude-opus-4-6"
+      ],
+      "createdAt": "2026-04-03T14:41:17.886Z",
+      "updatedAt": "2026-04-05T08:28:12.237Z"
+    }
+  ],
+  "bootstrapBindings": {
+    "anthropic": {
+      "enabled": true,
+      "mode": "oauth",
+      "accountRef": "claude"
+    },
+    "openai": {
+      "enabled": true,
+      "mode": "oauth",
+      "accountRef": "codex"
+    },
+    "google": {
+      "enabled": true,
+      "mode": "oauth",
+      "accountRef": "gemini"
+    },
+    "dare": {
+      "enabled": false,
+      "mode": "skip"
+    },
+    "opencode": {
+      "enabled": false,
+      "mode": "skip"
+    }
+  }
+}

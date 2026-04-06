@@ -1,0 +1,1 @@
+{"operation":"schedule_task","prompt":"检查系统状态","schedule_type":"interval","schedule_value":"3600000"}
