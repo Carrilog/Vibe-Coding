@@ -1,0 +1,252 @@
+{
+  "id": "2026-04-08-233437",
+  "generated_at": "2026-04-08T15:34:37.817073Z",
+  "language": "zh",
+  "pages": [
+    {
+      "slug": "1-xiang-mu-gai-lan-ccg-duo-mo-xing-xie-zuo-kai-fa-xi-tong",
+      "title": "项目概览：CCG 多模型协作开发系统",
+      "file": "1-xiang-mu-gai-lan-ccg-duo-mo-xing-xie-zuo-kai-fa-xi-tong.md",
+      "section": "入门指南",
+      "level": "Beginner"
+    },
+    {
+      "slug": "2-kuai-su-kai-shi-an-zhuang-yu-chu-shi-hua",
+      "title": "快速开始：安装与初始化",
+      "file": "2-kuai-su-kai-shi-an-zhuang-yu-chu-shi-hua.md",
+      "section": "入门指南",
+      "level": "Beginner"
+    },
+    {
+      "slug": "3-yi-lai-huan-jing-zhun-bei-node-js-jq-claude-code-codex-gemini-cli",
+      "title": "依赖环境准备（Node.js、jq、Claude Code、Codex、Gemini CLI）",
+      "file": "3-yi-lai-huan-jing-zhun-bei-node-js-jq-claude-code-codex-gemini-cli.md",
+      "section": "入门指南",
+      "level": "Beginner"
+    },
+    {
+      "slug": "4-zheng-ti-jia-gou-she-ji-claude-bian-pai-codex-hou-duan-gemini-qian-duan",
+      "title": "整体架构设计：Claude 编排 + Codex 后端 + Gemini 前端",
+      "file": "4-zheng-ti-jia-gou-she-ji-claude-bian-pai-codex-hou-duan-gemini-qian-duan.md",
+      "section": "深入解析",
+      "group": "核心架构",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "5-mo-xing-lu-you-ji-zhi-qian-duan-hou-duan-mo-xing-pei-zhi-yu-zhi-neng-diao-du",
+      "title": "模型路由机制：前端/后端模型配置与智能调度",
+      "file": "5-mo-xing-lu-you-ji-zhi-qian-duan-hou-duan-mo-xing-pei-zhi-yu-zhi-neng-diao-du.md",
+      "section": "深入解析",
+      "group": "核心架构",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "6-codeagent-wrapper-er-jin-zhi-go-jin-cheng-guan-li-yu-duo-hou-duan-diao-yong",
+      "title": "codeagent-wrapper 二进制：Go 进程管理与多后端调用",
+      "file": "6-codeagent-wrapper-er-jin-zhi-go-jin-cheng-guan-li-yu-duo-hou-duan-diao-yong.md",
+      "section": "深入解析",
+      "group": "核心架构",
+      "level": "Advanced"
+    },
+    {
+      "slug": "7-an-zhuang-qi-liu-shui-xian-cong-mo-ban-bian-liang-zhu-ru-dao-wen-jian-bu-shu-de-wan-zheng-lian-lu",
+      "title": "安装器流水线：从模板变量注入到文件部署的完整链路",
+      "file": "7-an-zhuang-qi-liu-shui-xian-cong-mo-ban-bian-liang-zhu-ru-dao-wen-jian-bu-shu-de-wan-zheng-lian-lu.md",
+      "section": "深入解析",
+      "group": "核心架构",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "8-xie-gang-ming-ling-ti-xi-29-ming-ling-fen-lei-yu-mo-ban-jie-gou",
+      "title": "斜杠命令体系：29+ 命令分类与模板结构",
+      "file": "8-xie-gang-ming-ling-ti-xi-29-ming-ling-fen-lei-yu-mo-ban-jie-gou.md",
+      "section": "深入解析",
+      "group": "命令系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "9-liu-jie-duan-kai-fa-gong-zuo-liu-ccg-workflow",
+      "title": "六阶段开发工作流（/ccg:workflow）",
+      "file": "9-liu-jie-duan-kai-fa-gong-zuo-liu-ccg-workflow.md",
+      "section": "深入解析",
+      "group": "命令系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "10-gui-hua-yu-zhi-xing-fen-chi-mo-shi-ccg-plan-ccg-execute",
+      "title": "规划与执行分离模式（/ccg:plan → /ccg:execute）",
+      "file": "10-gui-hua-yu-zhi-xing-fen-chi-mo-shi-ccg-plan-ccg-execute.md",
+      "section": "深入解析",
+      "group": "命令系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "11-codex-quan-quan-zhi-xing-mo-shi-ccg-codex-exec",
+      "title": "Codex 全权执行模式（/ccg:codex-exec）",
+      "file": "11-codex-quan-quan-zhi-xing-mo-shi-ccg-codex-exec.md",
+      "section": "深入解析",
+      "group": "命令系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "12-agent-teams-bing-xing-gong-zuo-liu-team-research-plan-exec-review",
+      "title": "Agent Teams 并行工作流（team-research/plan/exec/review）",
+      "file": "12-agent-teams-bing-xing-gong-zuo-liu-team-research-plan-exec-review.md",
+      "section": "深入解析",
+      "group": "命令系统",
+      "level": "Advanced"
+    },
+    {
+      "slug": "13-skill-registry-ji-zhi-skill-md-frontmatter-qu-dong-de-zi-dong-ming-ling-sheng-cheng",
+      "title": "Skill Registry 机制：SKILL.md Frontmatter 驱动的自动命令生成",
+      "file": "13-skill-registry-ji-zhi-skill-md-frontmatter-qu-dong-de-zi-dong-ming-ling-sheng-cheng.md",
+      "section": "深入解析",
+      "group": "技能与知识系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "14-zhuan-jia-ti-shi-ci-ti-xi-13-ge-jiao-se-ti-shi-ci-codex-6-gemini-7",
+      "title": "专家提示词体系：13 个角色提示词（Codex 6 + Gemini 7）",
+      "file": "14-zhuan-jia-ti-shi-ci-ti-xi-13-ge-jiao-se-ti-shi-ci-codex-6-gemini-7.md",
+      "section": "深入解析",
+      "group": "技能与知识系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "15-zhi-liang-guan-qia-zi-dong-hong-fa-gui-ze-yu-yan-zheng-lian",
+      "title": "质量关卡自动触发规则与验证链",
+      "file": "15-zhi-liang-guan-qia-zi-dong-hong-fa-gui-ze-yu-yan-zheng-lian.md",
+      "section": "深入解析",
+      "group": "技能与知识系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "16-yu-zhi-shi-mi-dian-10-da-ling-yu-61-ge-zhi-shi-wen-jian",
+      "title": "域知识秘典：10 大领域 61 个知识文件",
+      "file": "16-yu-zhi-shi-mi-dian-10-da-ling-yu-61-ge-zhi-shi-wen-jian.md",
+      "section": "深入解析",
+      "group": "技能与知识系统",
+      "level": "Advanced"
+    },
+    {
+      "slug": "17-impeccable-gong-ju-ji-20-ge-ui-ux-jing-da-mo-ji-neng",
+      "title": "Impeccable 工具集：20 个 UI/UX 精打磨技能",
+      "file": "17-impeccable-gong-ju-ji-20-ge-ui-ux-jing-da-mo-ji-neng.md",
+      "section": "深入解析",
+      "group": "技能与知识系统",
+      "level": "Advanced"
+    },
+    {
+      "slug": "18-mcp-gong-ju-ji-cheng-ace-tool-contextweaver-fast-context-pei-zhi-yu-tong-bu",
+      "title": "MCP 工具集成：ace-tool、ContextWeaver、fast-context 配置与同步",
+      "file": "18-mcp-gong-ju-ji-cheng-ace-tool-contextweaver-fast-context-pei-zhi-yu-tong-bu.md",
+      "section": "深入解析",
+      "group": "集成与配置",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "19-pei-zhi-xi-tong-toml-pei-zhi-wen-jian-jie-gou-yu-lu-you-she-zhi",
+      "title": "配置系统：TOML 配置文件结构与路由设置",
+      "file": "19-pei-zhi-xi-tong-toml-pei-zhi-wen-jian-jie-gou-yu-lu-you-she-zhi.md",
+      "section": "深入解析",
+      "group": "集成与配置",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "20-guo-ji-hua-i18n-jia-gou-yu-duo-yu-yan-zhi-chi",
+      "title": "国际化（i18n）架构与多语言支持",
+      "file": "20-guo-ji-hua-i18n-jia-gou-yu-duo-yu-yan-zhi-chi.md",
+      "section": "深入解析",
+      "group": "集成与配置",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "21-kua-ping-tai-jian-rong-xing-windows-macos-linux-gua-pei-ce-lue",
+      "title": "跨平台兼容性：Windows/macOS/Linux 适配策略",
+      "file": "21-kua-ping-tai-jian-rong-xing-windows-macos-linux-gua-pei-ce-lue.md",
+      "section": "深入解析",
+      "group": "集成与配置",
+      "level": "Advanced"
+    },
+    {
+      "slug": "22-backend-chou-xiang-ceng-codex-claude-gemini-hou-duan-jie-kou-shi-xian",
+      "title": "Backend 抽象层：Codex/Claude/Gemini 后端接口实现",
+      "file": "22-backend-chou-xiang-ceng-codex-claude-gemini-hou-duan-jie-kou-shi-xian.md",
+      "section": "深入解析",
+      "group": "Go 二进制深入",
+      "level": "Advanced"
+    },
+    {
+      "slug": "23-zhi-xing-qi-executor-jin-cheng-sheng-ming-zhou-qi-hui-hua-guan-li-yu-chao-shi-kong-zhi",
+      "title": "执行器（Executor）：进程生命周期、会话管理与超时控制",
+      "file": "23-zhi-xing-qi-executor-jin-cheng-sheng-ming-zhou-qi-hui-hua-guan-li-yu-chao-shi-kong-zhi.md",
+      "section": "深入解析",
+      "group": "Go 二进制深入",
+      "level": "Advanced"
+    },
+    {
+      "slug": "24-liu-shi-jie-xi-qi-parser-tong-shi-jian-jie-xi-yu-san-duan-json-liu-chu-li",
+      "title": "流式解析器（Parser）：统一事件解析与三端 JSON 流处理",
+      "file": "24-liu-shi-jie-xi-qi-parser-tong-shi-jian-jie-xi-yu-san-duan-json-liu-chu-li.md",
+      "section": "深入解析",
+      "group": "Go 二进制深入",
+      "level": "Advanced"
+    },
+    {
+      "slug": "25-bing-xing-zhi-xing-yin-qing-parallel-mo-shi-yu-ren-wu-yi-lai-guan-li",
+      "title": "并行执行引擎：--parallel 模式与任务依赖管理",
+      "file": "25-bing-xing-zhi-xing-yin-qing-parallel-mo-shi-yu-ren-wu-yi-lai-guan-li.md",
+      "section": "深入解析",
+      "group": "Go 二进制深入",
+      "level": "Advanced"
+    },
+    {
+      "slug": "26-sse-webserver-shi-shi-shu-chu-liu-yu-web-ui",
+      "title": "SSE WebServer：实时输出流与 Web UI",
+      "file": "26-sse-webserver-shi-shi-shu-chu-liu-yu-web-ui.md",
+      "section": "深入解析",
+      "group": "Go 二进制深入",
+      "level": "Advanced"
+    },
+    {
+      "slug": "27-kai-fa-huan-jing-da-jian-yu-gou-jian-liu-cheng",
+      "title": "开发环境搭建与构建流程",
+      "file": "27-kai-fa-huan-jing-da-jian-yu-gou-jian-liu-cheng.md",
+      "section": "深入解析",
+      "group": "开发与贡献",
+      "level": "Beginner"
+    },
+    {
+      "slug": "28-ce-shi-ti-xi-vitest-dan-yuan-ce-shi-yu-go-ce-shi",
+      "title": "测试体系：Vitest 单元测试与 Go 测试",
+      "file": "28-ce-shi-ti-xi-vitest-dan-yuan-ce-shi-yu-go-ce-shi.md",
+      "section": "深入解析",
+      "group": "开发与贡献",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "29-ci-cd-liu-shui-xian-github-actions-gou-jian-yu-bu-shu",
+      "title": "CI/CD 流水线：GitHub Actions 构建与部署",
+      "file": "29-ci-cd-liu-shui-xian-github-actions-gou-jian-yu-bu-shu.md",
+      "section": "深入解析",
+      "group": "开发与贡献",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "30-gong-xian-zhi-nan-ti-jiao-gui-fan-yu-pr-liu-cheng",
+      "title": "贡献指南：提交规范与 PR 流程",
+      "file": "30-gong-xian-zhi-nan-ti-jiao-gui-fan-yu-pr-liu-cheng.md",
+      "section": "深入解析",
+      "group": "开发与贡献",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "31-wen-dang-zhan-dian-vitepress-wen-dang-kai-fa-yu-wei-hu",
+      "title": "文档站点：VitePress 文档开发与维护",
+      "file": "31-wen-dang-zhan-dian-vitepress-wen-dang-kai-fa-yu-wei-hu.md",
+      "section": "深入解析",
+      "group": "开发与贡献",
+      "level": "Intermediate"
+    }
+  ]
+}

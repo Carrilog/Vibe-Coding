@@ -1,0 +1,268 @@
+{
+  "id": "2026-04-08-233353",
+  "generated_at": "2026-04-08T15:33:53.006462Z",
+  "language": "zh",
+  "pages": [
+    {
+      "slug": "1-xiang-mu-gai-shu-nanobot-chao-qing-liang-ji-ge-ren-ai-agent",
+      "title": "项目概述：nanobot 超轻量级个人 AI Agent",
+      "file": "1-xiang-mu-gai-shu-nanobot-chao-qing-liang-ji-ge-ren-ai-agent.md",
+      "section": "快速入门",
+      "level": "Beginner"
+    },
+    {
+      "slug": "2-kuai-su-shang-shou-an-zhuang-chu-shi-hua-yu-shou-ci-dui-hua",
+      "title": "快速上手：安装、初始化与首次对话",
+      "file": "2-kuai-su-shang-shou-an-zhuang-chu-shi-hua-yu-shou-ci-dui-hua.md",
+      "section": "快速入门",
+      "level": "Beginner"
+    },
+    {
+      "slug": "3-jiao-hu-shi-yin-dao-xiang-dao-yu-duo-shi-li-pei-zhi",
+      "title": "交互式引导向导与多实例配置",
+      "file": "3-jiao-hu-shi-yin-dao-xiang-dao-yu-duo-shi-li-pei-zhi.md",
+      "section": "快速入门",
+      "level": "Beginner"
+    },
+    {
+      "slug": "4-zheng-ti-jia-gou-xiao-xi-zong-xian-qu-dong-de-tong-dao-dai-li-mo-xing",
+      "title": "整体架构：消息总线驱动的通道-代理模型",
+      "file": "4-zheng-ti-jia-gou-xiao-xi-zong-xian-qu-dong-de-tong-dao-dai-li-mo-xing.md",
+      "section": "深入解析",
+      "group": "核心架构",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "5-agent-zhu-xun-huan-yu-gong-ju-diao-yong-sheng-ming-zhou-qi",
+      "title": "Agent 主循环与工具调用生命周期",
+      "file": "5-agent-zhu-xun-huan-yu-gong-ju-diao-yong-sheng-ming-zhou-qi.md",
+      "section": "深入解析",
+      "group": "核心架构",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "6-agent-runner-gong-xiang-zhi-xing-yin-qing-yu-shang-xia-wen-ya-suo-ce-lue",
+      "title": "Agent Runner：共享执行引擎与上下文压缩策略",
+      "file": "6-agent-runner-gong-xiang-zhi-xing-yin-qing-yu-shang-xia-wen-ya-suo-ce-lue.md",
+      "section": "深入解析",
+      "group": "核心架构",
+      "level": "Advanced"
+    },
+    {
+      "slug": "7-shang-xia-wen-gou-jian-qi-xi-tong-ti-shi-ci-zu-zhuang-yu-shen-fen-zhu-ru",
+      "title": "上下文构建器：系统提示词组装与身份注入",
+      "file": "7-shang-xia-wen-gou-jian-qi-xi-tong-ti-shi-ci-zu-zhuang-yu-shen-fen-zhu-ru.md",
+      "section": "深入解析",
+      "group": "核心架构",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "8-agent-sheng-ming-zhou-qi-hook-ji-zhi-yu-compositehook-cuo-wu-ge-chi",
+      "title": "Agent 生命周期 Hook 机制与 CompositeHook 错误隔离",
+      "file": "8-agent-sheng-ming-zhou-qi-hook-ji-zhi-yu-compositehook-cuo-wu-ge-chi.md",
+      "section": "深入解析",
+      "group": "核心架构",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "9-nei-zhi-gong-ju-gai-lan-wen-jian-xi-tong-shell-sou-suo-yu-web",
+      "title": "内置工具概览：文件系统、Shell、搜索与 Web",
+      "file": "9-nei-zhi-gong-ju-gai-lan-wen-jian-xi-tong-shell-sou-suo-yu-web.md",
+      "section": "深入解析",
+      "group": "工具系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "10-mcp-mo-xing-shang-xia-wen-xie-yi-ji-cheng-yu-gong-ju-fa-xian",
+      "title": "MCP（模型上下文协议）集成与工具发现",
+      "file": "10-mcp-mo-xing-shang-xia-wen-xie-yi-ji-cheng-yu-gong-ju-fa-xian.md",
+      "section": "深入解析",
+      "group": "工具系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "11-gong-ju-zhu-ce-biao-yu-dong-tai-guan-li",
+      "title": "工具注册表与动态管理",
+      "file": "11-gong-ju-zhu-ce-biao-yu-dong-tai-guan-li.md",
+      "section": "深入解析",
+      "group": "工具系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "12-sha-xiang-an-quan-bubblewrap-ge-chi-yu-gong-zuo-qu-fang-wen-kong-zhi",
+      "title": "沙箱安全：Bubblewrap 隔离与工作区访问控制",
+      "file": "12-sha-xiang-an-quan-bubblewrap-ge-chi-yu-gong-zuo-qu-fang-wen-kong-zhi.md",
+      "section": "深入解析",
+      "group": "工具系统",
+      "level": "Advanced"
+    },
+    {
+      "slug": "13-provider-zhu-ce-biao-yu-zi-dong-fa-xian-ji-zhi",
+      "title": "Provider 注册表与自动发现机制",
+      "file": "13-provider-zhu-ce-biao-yu-zi-dong-fa-xian-ji-zhi.md",
+      "section": "深入解析",
+      "group": "LLM Provider 体系",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "14-provider-hou-duan-shi-xian-openai-jian-rong-anthropic-azure-oauth",
+      "title": "Provider 后端实现：OpenAI 兼容、Anthropic、Azure、OAuth",
+      "file": "14-provider-hou-duan-shi-xian-openai-jian-rong-anthropic-azure-oauth.md",
+      "section": "深入解析",
+      "group": "LLM Provider 体系",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "15-provider-zhong-shi-ce-lue-yu-cuo-wu-yuan-shu-ju-chu-li",
+      "title": "Provider 重试策略与错误元数据处理",
+      "file": "15-provider-zhong-shi-ce-lue-yu-cuo-wu-yuan-shu-ju-chu-li.md",
+      "section": "深入解析",
+      "group": "LLM Provider 体系",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "16-tong-dao-jia-gou-basechannel-jie-kou-yu-tong-dao-guan-li-qi",
+      "title": "通道架构：BaseChannel 接口与通道管理器",
+      "file": "16-tong-dao-jia-gou-basechannel-jie-kou-yu-tong-dao-guan-li-qi.md",
+      "section": "深入解析",
+      "group": "多平台通道",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "17-nei-zhi-tong-dao-pei-zhi-zhi-nan-telegram-discord-fei-shu-wei-xin-deng",
+      "title": "内置通道配置指南（Telegram、Discord、飞书、微信等）",
+      "file": "17-nei-zhi-tong-dao-pei-zhi-zhi-nan-telegram-discord-fei-shu-wei-xin-deng.md",
+      "section": "深入解析",
+      "group": "多平台通道",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "18-tong-dao-cha-jian-kai-fa-cong-ling-gou-jian-zi-ding-yi-tong-dao",
+      "title": "通道插件开发：从零构建自定义通道",
+      "file": "18-tong-dao-cha-jian-kai-fa-cong-ling-gou-jian-zi-ding-yi-tong-dao.md",
+      "section": "深入解析",
+      "group": "多平台通道",
+      "level": "Advanced"
+    },
+    {
+      "slug": "19-liu-shi-shu-chu-yu-zeng-liang-xiao-xi-he-bing-ji-zhi",
+      "title": "流式输出与增量消息合并机制",
+      "file": "19-liu-shi-shu-chu-yu-zeng-liang-xiao-xi-he-bing-ji-zhi.md",
+      "section": "深入解析",
+      "group": "多平台通道",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "20-fen-ceng-ji-yi-she-ji-history-jsonl-soul-md-user-md-yu-memory-md",
+      "title": "分层记忆设计：history.jsonl、SOUL.md、USER.md 与 MEMORY.md",
+      "file": "20-fen-ceng-ji-yi-she-ji-history-jsonl-soul-md-user-md-yu-memory-md.md",
+      "section": "深入解析",
+      "group": "记忆系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "21-consolidator-dui-hua-zhai-yao-yu-shang-xia-wen-chuang-kou-guan-li",
+      "title": "Consolidator：对话摘要与上下文窗口管理",
+      "file": "21-consolidator-dui-hua-zhai-yao-yu-shang-xia-wen-chuang-kou-guan-li.md",
+      "section": "深入解析",
+      "group": "记忆系统",
+      "level": "Advanced"
+    },
+    {
+      "slug": "22-dream-liang-jie-duan-chang-qi-ji-yi-zheng-he-yu-gitstore-ban-ben-hua",
+      "title": "Dream：两阶段长期记忆整合与 GitStore 版本化",
+      "file": "22-dream-liang-jie-duan-chang-qi-ji-yi-zheng-he-yu-gitstore-ban-ben-hua.md",
+      "section": "深入解析",
+      "group": "记忆系统",
+      "level": "Advanced"
+    },
+    {
+      "slug": "23-hui-hua-guan-li-qi-dui-hua-li-shi-xiao-xi-bian-jie-yu-he-bing-ce-lue",
+      "title": "会话管理器：对话历史、消息边界与合并策略",
+      "file": "23-hui-hua-guan-li-qi-dui-hua-li-shi-xiao-xi-bian-jie-yu-he-bing-ce-lue.md",
+      "section": "深入解析",
+      "group": "会话与任务调度",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "24-cron-fu-wu-ding-shi-ren-wu-diao-du-yu-duo-shi-qu-zhi-chi",
+      "title": "Cron 服务：定时任务调度与多时区支持",
+      "file": "24-cron-fu-wu-ding-shi-ren-wu-diao-du-yu-duo-shi-qu-zhi-chi.md",
+      "section": "深入解析",
+      "group": "会话与任务调度",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "25-zi-dai-li-subagent-hou-tai-ren-wu-pai-fa-yu-guan-li",
+      "title": "子代理（Subagent）：后台任务派发与管理",
+      "file": "25-zi-dai-li-subagent-hou-tai-ren-wu-pai-fa-yu-guan-li.md",
+      "section": "深入解析",
+      "group": "会话与任务调度",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "26-ji-neng-xi-tong-skill-md-ge-shi-yu-jia-zai-ji-zhi",
+      "title": "技能系统：SKILL.md 格式与加载机制",
+      "file": "26-ji-neng-xi-tong-skill-md-ge-shi-yu-jia-zai-ji-zhi.md",
+      "section": "深入解析",
+      "group": "技能与可扩展性",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "27-nei-zhi-ji-neng-lan-github-tian-qi-zhai-yao-clawhub-deng",
+      "title": "内置技能一览（GitHub、天气、摘要、ClawHub 等）",
+      "file": "27-nei-zhi-ji-neng-lan-github-tian-qi-zhai-yao-clawhub-deng.md",
+      "section": "深入解析",
+      "group": "技能与可扩展性",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "28-python-sdk-nanobot-men-mian-lei-yu-hui-hua-ge-chi",
+      "title": "Python SDK：Nanobot 门面类与会话隔离",
+      "file": "28-python-sdk-nanobot-men-mian-lei-yu-hui-hua-ge-chi.md",
+      "section": "深入解析",
+      "group": "编程接口",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "29-openai-jian-rong-http-api-duan-dian-hui-hua-guan-li-yu-ji-cheng-shi-li",
+      "title": "OpenAI 兼容 HTTP API：端点、会话管理与集成示例",
+      "file": "29-openai-jian-rong-http-api-duan-dian-hui-hua-guan-li-yu-ji-cheng-shi-li.md",
+      "section": "深入解析",
+      "group": "编程接口",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "30-docker-bu-shu-yu-docker-compose-pei-zhi",
+      "title": "Docker 部署与 docker-compose 配置",
+      "file": "30-docker-bu-shu-yu-docker-compose-pei-zhi.md",
+      "section": "深入解析",
+      "group": "运维与部署",
+      "level": "Beginner"
+    },
+    {
+      "slug": "31-pei-zhi-ti-xi-schema-ding-yi-huan-jing-bian-liang-cha-zhi-yu-duo-pei-zhi-wen-jian",
+      "title": "配置体系：schema 定义、环境变量插值与多配置文件",
+      "file": "31-pei-zhi-ti-xi-schema-ding-yi-huan-jing-bian-liang-cha-zhi-yu-duo-pei-zhi-wen-jian.md",
+      "section": "深入解析",
+      "group": "运维与部署",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "32-wang-luo-an-quan-fang-wen-kong-zhi-yu-sheng-chan-huan-jing-jia-gu",
+      "title": "网络安全、访问控制与生产环境加固",
+      "file": "32-wang-luo-an-quan-fang-wen-kong-zhi-yu-sheng-chan-huan-jing-jia-gu.md",
+      "section": "深入解析",
+      "group": "运维与部署",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "33-linux-systemd-fu-wu-yu-duo-shi-li-yun-wei",
+      "title": "Linux Systemd 服务与多实例运维",
+      "file": "33-linux-systemd-fu-wu-yu-duo-shi-li-yun-wei.md",
+      "section": "深入解析",
+      "group": "运维与部署",
+      "level": "Intermediate"
+    }
+  ]
+}

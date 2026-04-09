@@ -1,0 +1,268 @@
+{
+  "id": "2026-04-08-233233",
+  "generated_at": "2026-04-08T15:32:33.750428Z",
+  "language": "zh",
+  "pages": [
+    {
+      "slug": "1-xiang-mu-gai-shu-nanoclaw-shi-shi-yao-yi-ji-wei-shi-yao-xu-yao-ta",
+      "title": "项目概述：NanoClaw 是什么以及为什么需要它",
+      "file": "1-xiang-mu-gai-shu-nanoclaw-shi-shi-yao-yi-ji-wei-shi-yao-xu-yao-ta.md",
+      "section": "入门指南",
+      "level": "Beginner"
+    },
+    {
+      "slug": "2-kuai-su-an-zhuang-yu-shou-ci-yun-xing-zhi-nan",
+      "title": "快速安装与首次运行指南",
+      "file": "2-kuai-su-an-zhuang-yu-shou-ci-yun-xing-zhi-nan.md",
+      "section": "入门指南",
+      "level": "Beginner"
+    },
+    {
+      "slug": "3-yu-zhu-shou-dui-hua-hong-fa-ci-qun-zu-he-ji-ben-yong-fa",
+      "title": "与助手对话：触发词、群组和基本用法",
+      "file": "3-yu-zhu-shou-dui-hua-hong-fa-ci-qun-zu-he-ji-ben-yong-fa.md",
+      "section": "入门指南",
+      "level": "Beginner"
+    },
+    {
+      "slug": "4-huan-jing-jian-ce-yu-yi-lai-an-zhuang-setup-bu-zou-1-2",
+      "title": "环境检测与依赖安装（setup 步骤 1-2）",
+      "file": "4-huan-jing-jian-ce-yu-yi-lai-an-zhuang-setup-bu-zou-1-2.md",
+      "section": "入门指南",
+      "group": "安装与配置步骤",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "5-rong-qi-yun-xing-shi-xuan-ze-yu-gou-jian-docker-apple-container",
+      "title": "容器运行时选择与构建（Docker / Apple Container）",
+      "file": "5-rong-qi-yun-xing-shi-xuan-ze-yu-gou-jian-docker-apple-container.md",
+      "section": "入门指南",
+      "group": "安装与配置步骤",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "6-claude-ren-zheng-pei-zhi-oauth-token-api-key",
+      "title": "Claude 认证配置（OAuth Token / API Key）",
+      "file": "6-claude-ren-zheng-pei-zhi-oauth-token-api-key.md",
+      "section": "入门指南",
+      "group": "安装与配置步骤",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "7-xiao-xi-qu-dao-an-zhuang-yu-ren-zheng-whatsapp-telegram-discord-slack",
+      "title": "消息渠道安装与认证（WhatsApp、Telegram、Discord、Slack）",
+      "file": "7-xiao-xi-qu-dao-an-zhuang-yu-ren-zheng-whatsapp-telegram-discord-slack.md",
+      "section": "入门指南",
+      "group": "安装与配置步骤",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "8-gua-zai-bai-ming-dan-yu-fu-wu-qi-dong",
+      "title": "挂载白名单与服务启动",
+      "file": "8-gua-zai-bai-ming-dan-yu-fu-wu-qi-dong.md",
+      "section": "入门指南",
+      "group": "安装与配置步骤",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "9-zheng-ti-jia-gou-dan-jin-cheng-bian-pai-qi-yu-rong-qi-hua-zhi-neng-ti",
+      "title": "整体架构：单进程编排器与容器化智能体",
+      "file": "9-zheng-ti-jia-gou-dan-jin-cheng-bian-pai-qi-yu-rong-qi-hua-zhi-neng-ti.md",
+      "section": "深入理解",
+      "group": "系统架构",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "10-xiao-xi-liu-zhuan-quan-lian-lu-cong-qu-dao-dao-zhi-neng-ti-xiang-ying",
+      "title": "消息流转全链路：从渠道到智能体响应",
+      "file": "10-xiao-xi-liu-zhuan-quan-lian-lu-cong-qu-dao-dao-zhi-neng-ti-xiang-ying.md",
+      "section": "深入理解",
+      "group": "系统架构",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "11-qu-dao-zhu-ce-biao-zi-zhu-ce-gong-han-mo-shi-yu-qu-dao-jie-kou-she-ji",
+      "title": "渠道注册表：自注册工厂模式与渠道接口设计",
+      "file": "11-qu-dao-zhu-ce-biao-zi-zhu-ce-gong-han-mo-shi-yu-qu-dao-jie-kou-she-ji.md",
+      "section": "深入理解",
+      "group": "系统架构",
+      "level": "Advanced"
+    },
+    {
+      "slug": "12-bian-pai-qi-src-index-ts-zhuang-tai-guan-li-xiao-xi-xun-huan-yu-zhi-neng-ti-diao-du",
+      "title": "编排器（src/index.ts）：状态管理、消息循环与智能体调度",
+      "file": "12-bian-pai-qi-src-index-ts-zhuang-tai-guan-li-xiao-xi-xun-huan-yu-zhi-neng-ti-diao-du.md",
+      "section": "深入理解",
+      "group": "核心模块详解",
+      "level": "Advanced"
+    },
+    {
+      "slug": "13-rong-qi-yun-xing-qi-src-container-runner-ts-rong-qi-sheng-ming-zhou-qi-yu-juan-gua-zai",
+      "title": "容器运行器（src/container-runner.ts）：容器生命周期与卷挂载",
+      "file": "13-rong-qi-yun-xing-qi-src-container-runner-ts-rong-qi-sheng-ming-zhou-qi-yu-juan-gua-zai.md",
+      "section": "深入理解",
+      "group": "核心模块详解",
+      "level": "Advanced"
+    },
+    {
+      "slug": "14-qun-zu-dui-lie-src-group-queue-ts-bing-fa-kong-zhi-yu-ren-wu-pai-dui-ji-zhi",
+      "title": "群组队列（src/group-queue.ts）：并发控制与任务排队机制",
+      "file": "14-qun-zu-dui-lie-src-group-queue-ts-bing-fa-kong-zhi-yu-ren-wu-pai-dui-ji-zhi.md",
+      "section": "深入理解",
+      "group": "核心模块详解",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "15-ipc-tong-xin-src-ipc-ts-ji-yu-wen-jian-de-jin-cheng-jian-tong-xin-yu-quan-xian-xiao-yan",
+      "title": "IPC 通信（src/ipc.ts）：基于文件的进程间通信与权限校验",
+      "file": "15-ipc-tong-xin-src-ipc-ts-ji-yu-wen-jian-de-jin-cheng-jian-tong-xin-yu-quan-xian-xiao-yan.md",
+      "section": "深入理解",
+      "group": "核心模块详解",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "16-xiao-xi-lu-you-src-router-ts-xiao-xi-ge-shi-hua-yu-chu-zhan-fen-fa",
+      "title": "消息路由（src/router.ts）：消息格式化与出站分发",
+      "file": "16-xiao-xi-lu-you-src-router-ts-xiao-xi-ge-shi-hua-yu-chu-zhan-fen-fa.md",
+      "section": "深入理解",
+      "group": "核心模块详解",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "17-shu-ju-ku-ceng-src-db-ts-sqlite-schema-qian-yi-yu-cha-xun-jie-kou",
+      "title": "数据库层（src/db.ts）：SQLite Schema、迁移与查询接口",
+      "file": "17-shu-ju-ku-ceng-src-db-ts-sqlite-schema-qian-yi-yu-cha-xun-jie-kou.md",
+      "section": "深入理解",
+      "group": "核心模块详解",
+      "level": "Advanced"
+    },
+    {
+      "slug": "18-ren-wu-diao-du-qi-src-task-scheduler-ts-cron-jian-ge-yu-ci-xing-ren-wu",
+      "title": "任务调度器（src/task-scheduler.ts）：Cron、间隔与一次性任务",
+      "file": "18-ren-wu-diao-du-qi-src-task-scheduler-ts-cron-jian-ge-yu-ci-xing-ren-wu.md",
+      "section": "深入理解",
+      "group": "核心模块详解",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "19-rong-qi-jing-xiang-gou-jian-dockerfile-yu-agent-runner-jia-gou",
+      "title": "容器镜像构建：Dockerfile 与 agent-runner 架构",
+      "file": "19-rong-qi-jing-xiang-gou-jian-dockerfile-yu-agent-runner-jia-gou.md",
+      "section": "深入理解",
+      "group": "容器内智能体",
+      "level": "Advanced"
+    },
+    {
+      "slug": "20-agent-runner-container-agent-runner-claude-agent-sdk-ji-cheng-ipc-lun-xun-yu-hui-hua-guan-li",
+      "title": "Agent Runner（container/agent-runner）：Claude Agent SDK 集成、IPC 轮询与会话管理",
+      "file": "20-agent-runner-container-agent-runner-claude-agent-sdk-ji-cheng-ipc-lun-xun-yu-hui-hua-guan-li.md",
+      "section": "深入理解",
+      "group": "容器内智能体",
+      "level": "Advanced"
+    },
+    {
+      "slug": "21-rong-qi-ge-chi-wen-jian-xi-tong-sha-xiang-yu-jin-cheng-ge-chi",
+      "title": "容器隔离：文件系统沙箱与进程隔离",
+      "file": "21-rong-qi-ge-chi-wen-jian-xi-tong-sha-xiang-yu-jin-cheng-ge-chi.md",
+      "section": "深入理解",
+      "group": "安全模型",
+      "level": "Advanced"
+    },
+    {
+      "slug": "22-gua-zai-an-quan-wai-bu-bai-ming-dan-fu-hao-lian-jie-fang-hu-yu-lu-jing-xiao-yan",
+      "title": "挂载安全：外部白名单、符号链接防护与路径校验",
+      "file": "22-gua-zai-an-quan-wai-bu-bai-ming-dan-fu-hao-lian-jie-fang-hu-yu-lu-jing-xiao-yan.md",
+      "section": "深入理解",
+      "group": "安全模型",
+      "level": "Advanced"
+    },
+    {
+      "slug": "23-fa-song-zhe-bai-ming-dan-yu-xiao-xi-guo-lu-src-sender-allowlist-ts",
+      "title": "发送者白名单与消息过滤（src/sender-allowlist.ts）",
+      "file": "23-fa-song-zhe-bai-ming-dan-yu-xiao-xi-guo-lu-src-sender-allowlist-ts.md",
+      "section": "深入理解",
+      "group": "安全模型",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "24-ipc-shou-quan-mo-xing-zhu-qun-zu-yu-fei-zhu-qun-zu-de-quan-xian-chai-yi",
+      "title": "IPC 授权模型：主群组与非主群组的权限差异",
+      "file": "24-ipc-shou-quan-mo-xing-zhu-qun-zu-yu-fei-zhu-qun-zu-de-quan-xian-chai-yi.md",
+      "section": "深入理解",
+      "group": "安全模型",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "25-ji-neng-yin-qing-skills-engine-ying-yong-he-bing-chong-tu-jian-ce-yu-zhuang-tai-guan-li",
+      "title": "技能引擎（skills-engine）：应用、合并、冲突检测与状态管理",
+      "file": "25-ji-neng-yin-qing-skills-engine-ying-yong-he-bing-chong-tu-jian-ce-yu-zhuang-tai-guan-li.md",
+      "section": "深入理解",
+      "group": "技能系统",
+      "level": "Advanced"
+    },
+    {
+      "slug": "26-ji-neng-gong-xian-gui-fan-ru-he-bian-xie-skill-md-yu-ji-neng-mu-lu-jie-gou",
+      "title": "技能贡献规范：如何编写 SKILL.md 与技能目录结构",
+      "file": "26-ji-neng-gong-xian-gui-fan-ru-he-bian-xie-skill-md-yu-ji-neng-mu-lu-jie-gou.md",
+      "section": "深入理解",
+      "group": "技能系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "27-ji-neng-zhong-fang-yu-bian-ji-rebase-chu-li-shang-you-geng-xin-de-san-lu-he-bing-ce-lue",
+      "title": "技能重放与变基（rebase）：处理上游更新的三路合并策略",
+      "file": "27-ji-neng-zhong-fang-yu-bian-ji-rebase-chu-li-shang-you-geng-xin-de-san-lu-he-bing-ce-lue.md",
+      "section": "深入理解",
+      "group": "技能系统",
+      "level": "Advanced"
+    },
+    {
+      "slug": "28-sqlite-shu-ju-ku-schema-xiao-xi-qun-zu-hui-hua-ren-wu-yu-lu-you-zhuang-tai",
+      "title": "SQLite 数据库 Schema：消息、群组、会话、任务与路由状态",
+      "file": "28-sqlite-shu-ju-ku-schema-xiao-xi-qun-zu-hui-hua-ren-wu-yu-lu-you-zhuang-tai.md",
+      "section": "深入理解",
+      "group": "数据与状态",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "29-ji-yi-xi-tong-claude-md-ceng-ji-jie-gou-yu-quan-ju-qun-zu-ge-chi",
+      "title": "记忆系统：CLAUDE.md 层级结构与全局/群组隔离",
+      "file": "29-ji-yi-xi-tong-claude-md-ceng-ji-jie-gou-yu-quan-ju-qun-zu-ge-chi.md",
+      "section": "深入理解",
+      "group": "数据与状态",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "30-hui-hua-guan-li-session-chi-jiu-hua-yu-shang-xia-wen-hui-fu",
+      "title": "会话管理：Session 持久化与上下文恢复",
+      "file": "30-hui-hua-guan-li-session-chi-jiu-hua-yu-shang-xia-wen-hui-fu.md",
+      "section": "深入理解",
+      "group": "数据与状态",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "31-fu-wu-guan-li-launchd-systemd-pei-zhi-yu-ri-zhi-pai-cha",
+      "title": "服务管理：launchd / systemd 配置与日志排查",
+      "file": "31-fu-wu-guan-li-launchd-systemd-pei-zhi-yu-ri-zhi-pai-cha.md",
+      "section": "深入理解",
+      "group": "运维与定制",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "32-ding-zhi-hua-shi-jian-xiu-gai-hong-fa-ci-xing-wei-diao-zheng-yu-mu-lu-gua-zai",
+      "title": "定制化实践：修改触发词、行为调整与目录挂载",
+      "file": "32-ding-zhi-hua-shi-jian-xiu-gai-hong-fa-ci-xing-wei-diao-zheng-yu-mu-lu-gua-zai.md",
+      "section": "深入理解",
+      "group": "运维与定制",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "33-shi-yong-di-san-fang-yu-kai-yuan-mo-xing-api-jian-rong-duan-dian-pei-zhi",
+      "title": "使用第三方与开源模型：API 兼容端点配置",
+      "file": "33-shi-yong-di-san-fang-yu-kai-yuan-mo-xing-api-jian-rong-duan-dian-pei-zhi.md",
+      "section": "深入理解",
+      "group": "运维与定制",
+      "level": "Intermediate"
+    }
+  ]
+}
