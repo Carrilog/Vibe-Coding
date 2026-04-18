@@ -1,1 +1,4 @@
 .DS_Store
+hello-agents/.venv/
+hello-agents/core/__pycache__/
+hello-agents/hello_agents.egg-info/
